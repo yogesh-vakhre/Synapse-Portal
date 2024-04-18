@@ -1,0 +1,33 @@
+  /*
+    |--------------------------------------------------------------------------
+    | Global css
+    |--------------------------------------------------------------------------
+    |
+    | This section contains custom global css accessible to all users.
+    | These scripts are loaded globally and are available for use throughout the application.
+    | Let's create something amazing!
+    |
+    */
+
+  .is-invalid {
+    color: var(--bs-form-invalid-color);
+    font-size: .8125rem;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .invalid-feedback {
+    display: block;
+}
+  .dataTables_filter {
+    display: none;
+  }
+
+  .dataTables_paginate {
+    margin-top: 20px;
+    float: right;
+  }
+
+  .dataTables_info {
+    margin: 20px;
+  }
